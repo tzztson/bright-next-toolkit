@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/davidlbowman/bright-next-toolkit/issues"
   },
-  "homepage": "https://github.com/davidlbowman/bright-next-toolkit#readme"
+  "homepage": "https://github.com/davidlbowman/bright-next-toolkit#readme",
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
 }
