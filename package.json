@@ -1,0 +1,19 @@
+{
+  "name": "@davidlbowman/bright-next-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlbowman/bright-next-toolkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlbowman/bright-next-toolkit/issues"
+  },
+  "homepage": "https://github.com/davidlbowman/bright-next-toolkit#readme"
+}
