@@ -1,0 +1,49 @@
+{
+    "env": { 
+        "browser": true, 
+        "es6": true 
+    }, 
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "prettier"
+    ], 
+    "parser": "babel-eslint", 
+    "parserOptions": { 
+        "ecmaFeatures": { 
+            "jsx": true 
+        }, 
+        "ecmaVersion": 2018, 
+        "sourceType": "module" 
+    }, 
+    "plugins": ["react", "react-native", "prettier", "import"], 
+    "rules": {
+        "prettier/prettier": ["error"],
+        "import/order": [
+            "error",
+            {
+              "groups": ["builtin", "external", "internal"],
+              "pathGroups": [
+                {
+                  "pattern": "react",
+                  "group": "external",
+                  "position": "before"
+                }
+              ],
+              "pathGroupsExcludedImportTypes": ["react"],
+              "newlines-between": "always",
+              "alphabetize": {
+                "order": "asc",
+                "caseInsensitive": true
+              }
+            }
+        ],      
+        "import/imports-first": 0,
+        "no-unused-vars": 1, 
+        "no-unreachable": 2, 
+        "no-console": 0,
+        "valid-typeof": 2,
+        "eqeqeq": [2, "smart"]
+    }
+} 

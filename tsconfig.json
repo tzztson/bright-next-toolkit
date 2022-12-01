@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/Atoms/*": ["components/Atoms/*"],
+      "@/Hooks/*": ["hooks/*"],
+      "@/Molecules/*": ["components/Molecules/*"],
+      "@/Organisms/*": ["components/Organisms/*"],
+      "@/Templates/*": ["components/Templates/*"],
+      "@/Types/*": ["types/*"],
+      "@/Styles/*": ["styles/*"],
+      "@/Utils/*": ["utils/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.d.ts",
+    "components/Atoms/Text.jsx",
+    "components/Atoms/LoginButton.jsx",
+    "pages/test.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
