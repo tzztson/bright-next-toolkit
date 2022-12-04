@@ -1,7 +1,7 @@
 import 'styled-components'
 
 declare module 'styled-components' {
-  export interface LightThemeTypes {
+  export interface ThemeTypes {
     colors: {
       dark: {
         primary: string

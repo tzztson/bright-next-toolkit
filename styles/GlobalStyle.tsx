@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { lightTheme } from 'styles/theme'
+import { theme } from 'styles/theme'
 
 export const breakpoints = {
   mobileSm: `(min-width: 0px)`,
@@ -21,13 +21,13 @@ export const GlobalStyle = createGlobalStyle`
 html, body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  background-color: ${lightTheme.colors.light.secondary};
+  background-color: ${theme.colors.light.secondary};
   max-width: 1536px;
   margin: auto;
 }
 
 a {
-  color: ${lightTheme.colors.dark.primary};
+  color: ${theme.colors.dark.primary};
   text-decoration: none;
   :hover {
     background: linear-gradient(109.57deg, #5d3594 2.54%, #2a8bb8 29.98%, #c459a1 75.29%, #45c2c8 75.29%);

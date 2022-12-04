@@ -1,6 +1,6 @@
-import { LightThemeTypes } from 'styled-components'
+import { ThemeTypes } from 'styled-components'
 
-export const lightTheme: LightThemeTypes = {
+export const theme: ThemeTypes = {
   colors: {
     dark: {
       primary: 'hsla(248, 25%, 30%, 1)',
@@ -16,7 +16,8 @@ export const lightTheme: LightThemeTypes = {
       tertiary: 'hsla(247, 19%, 65%, 1)',
       quaternary: 'hsla(249, 10%, 86%, 1)'
     },
-    gradient: 'linear-gradient(109.57deg, #5D3594 2.54%, #2A8BB8 29.98%, #C459A1 75.29%, #45C2C8 75.29%)'
+    gradient:
+      'linear-gradient(109.57deg, #5D3594 2.54%, #2A8BB8 29.98%, #C459A1 75.29%, #45C2C8 75.29%)'
   },
 
   shadows: {
@@ -24,4 +25,4 @@ export const lightTheme: LightThemeTypes = {
   }
 }
 
-export default lightTheme
+export default theme
